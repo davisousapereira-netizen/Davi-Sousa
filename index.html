@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Davi Luiz Sousa Pereira | Médico Veterinário</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <svg viewBox="0 0 100 100" class="logo-svg">
+                    <defs>
+                        <linearGradient id="gradLogo" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#0a6ebd;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#1abc9c;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="46" fill="url(#gradLogo)" stroke="#0a6ebd" stroke-width="2"/>
+                    <!-- Pata -->
+                    <ellipse cx="38" cy="38" rx="7" ry="9" fill="#fff"/>
+                    <ellipse cx="62" cy="38" rx="7" ry="9" fill="#fff"/>
+                    <ellipse cx="26" cy="52" rx="6" ry="8" fill="#fff"/>
+                    <ellipse cx="74" cy="52" rx="6" ry="8" fill="#fff"/>
+                    <path d="M50 55 C 38 55, 30 65, 35 75 C 40 83, 60 83, 65 75 C 70 65, 62 55, 50 55 Z" fill="#fff"/>
+                    <!-- Cruz veterinária -->
+                    <rect x="47" y="62" width="6" height="14" fill="#1abc9c" rx="1"/>
+                    <rect x="43" y="66" width="14" height="6" fill="#1abc9c" rx="1"/>
+                </svg>
+                <div class="logo-text">
+                    <span class="logo-name">Davi Luiz</span>
+                    <span class="logo-sub">Médico Veterinário</span>
+                </div>
+            </div>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Início</a>
+                <a href="#historia" class="nav-link">História</a>
+                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#cartao" class="nav-link">Cartão</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="hero-tag">🐾 Cuidando de quem você ama</span>
+                <h1>Dr. Davi Luiz <br><span class="gradient-text">Sousa Pereira</span></h1>
+                <p class="hero-sub">Médico Veterinário dedicado ao bem-estar animal, com atendimento humanizado, tecnologia de ponta e amor pela profissão.</p>
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn btn-primary">Agendar Consulta</a>
+                    <a href="#servicos" class="btn btn-outline">Ver Serviços</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>+10</h3>
+                        <p>Anos de Experiência</p>
+                    </div>
+                    <div class="stat">
+                        <h3>+2500</h3>
+                        <p>Pacientes Atendidos</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Dedicação</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card-float">
+                    <div class="pet-icon">🐶</div>
+                </div>
+                <div class="hero-circle">
+                    <svg viewBox="0 0 200 200" class="hero-logo-big">
+                        <defs>
+                            <linearGradient id="gradHero" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0a6ebd;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#1abc9c;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="100" cy="100" r="90" fill="url(#gradHero)"/>
+                        <ellipse cx="78" cy="78" rx="12" ry="16" fill="#fff"/>
+                        <ellipse cx="122" cy="78" rx="12" ry="16" fill="#fff"/>
+                        <ellipse cx="58" cy="105" rx="10" ry="14" fill="#fff"/>
+                        <ellipse cx="142" cy="105" rx="10" ry="14" fill="#fff"/>
+                        <path d="M100 108 C 80 108, 65 128, 73 148 C 82 168, 118 168, 127 148 C 135 128, 120 108, 100 108 Z" fill="#fff"/>
+                        <rect x="95" y="122" width="10" height="24" fill="#1abc9c" rx="2"/>
+                        <rect x="88" y="129" width="24" height="10" fill="#1abc9c" rx="2"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- HISTÓRIA -->
+    <section class="section historia" id="historia">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Sobre mim</span>
+                <h2 class="section-title">Minha <span class="gradient-text">História</span></h2>
+                <p class="section-desc">Uma trajetória construída com amor, estudo e dedicação aos animais.</p>
+            </div>
+            <div class="historia-grid">
+                <div class="historia-card">
+                    <div class="historia-icon">🎓</div>
+                    <h3>Formação</h3>
+                    <p>Graduado em Medicina Veterinária, com especialização em Clínica Médica de Pequenos Animais e Cirurgia Veterinária. Sempre em busca de atualização constante.</p>
+                </div>
+                <div class="historia-card">
+                    <div class="historia-icon">💙</div>
+                    <h3>Missão</h3>
+                    <p>Cuidar da saúde e bem-estar dos animais com empatia, ética e excelência técnica, tratando cada paciente como único e especial.</p>
+                </div>
+                <div class="historia-card">
+                    <div class="historia-icon">🏆</div>
+                    <h3>Experiência</h3>
+                    <p>Mais de 10 anos atuando em clínicas, cirurgias, atendimentos de emergência e consultas preventivas, sempre com dedicação total.</p>
+                </div>
+                <div class="historia-card">
+                    <div class="historia-icon">🐾</div>
+                    <h3>Amor pela Profissão</h3>
+                    <p>A veterinária não é apenas uma carreira, é uma vocação. Cada animal atendido se torna parte da minha história e motivo de orgulho.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section servicos" id="servicos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">O que ofereço</span>
+                <h2 class="section-title">Meus <span class="gradient-text">Serviços</span></h2>
+                <p class="section-desc">Atendimento completo para cães, gatos e animais exóticos.</p>
+            </div>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <div class="servico-icon">🩺</div>
+                    <h3>Consultas Clínicas</h3>
+                    <p>Avaliação completa da saúde do seu pet, diagnóstico preciso e tratamento personalizado.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">💉</div>
+                    <h3>Vacinação</h3>
+                    <p>Protocolo vacinal completo com vacinas de alta qualidade e segurança para seu animal.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">🔬</div>
+                    <h3>Exames Laboratoriais</h3>
+                    <p>Coleta e interpretação de exames com tecnologia moderna para diagnóstico ágil.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">✂️</div>
+                    <h3>Cirurgias</h3>
+                    <p>Procedimentos cirúrgicos com técnicas modernas, segurança e acompanhamento pós-operatório.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">🦷</div>
+                    <h3>Odontologia</h3>
+                    <p>Limpeza, tratamento de tártaro e cuidados com a saúde bucal do seu pet.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">🚑</div>
+                    <h3>Emergências</h3>
+                    <p>Atendimento emergencial para situações críticas, com rapidez e eficiência.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARTÃO DE VISITA -->
+    <section class="section cartao-section" id="cartao">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contato rápido</span>
+                <h2 class="section-title">Meu <span class="gradient-text">Cartão de Visita</span></h2>
+                <p class="section-desc">Leve meus dados com você. Sempre pronto para atender seu pet!</p>
+            </div>
+            <div class="cartao-wrapper">
+                <div class="cartao-visita" id="cartaoVisita">
+                    <div class="cartao-front">
+                        <div class="cartao-bg-shapes">
+                            <div class="cb-shape cb-shape-1"></div>
+                            <div class="cb-shape cb-shape-2"></div>
+                        </div>
+                        <div class="cartao-logo">
+                            <svg viewBox="0 0 100 100">
+                                <defs>
+                                    <linearGradient id="gradCard" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#0a6ebd" />
+                                        <stop offset="100%" style="stop-color:#1abc9c" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="50" r="46" fill="url(#gradCard)"/>
+                                <ellipse cx="38" cy="38" rx="7" ry="9" fill="#fff"/>
+                                <ellipse cx="62" cy="38" rx="7" ry="9" fill="#fff"/>
+                                <ellipse cx="26" cy="52" rx="6" ry="8" fill="#fff"/>
+                                <ellipse cx="74" cy="52" rx="6" ry="8" fill="#fff"/>
+                                <path d="M50 55 C 38 55, 30 65, 35 75 C 40 83, 60 83, 65 75 C 70 65, 62 55, 50 55 Z" fill="#fff"/>
+                                <rect x="47" y="62" width="6" height="14" fill="#1abc9c" rx="1"/>
+                                <rect x="43" y="66" width="14" height="6" fill="#1abc9c" rx="1"/>
+                            </svg>
+                        </div>
+                        <div class="cartao-info">
+                            <h3>Dr. Davi Luiz Sousa Pereira</h3>
+                            <p class="cargo">Médico Veterinário</p>
+                            <div class="cartao-divisor"></div>
+                            <div class="cartao-contatos">
+                                <p>📞 (00) 00000-0000</p>
+                                <p>✉️ davi.vet@email.com</p>
+                                <p>📍 Atendimento em domicílio e clínica</p>
+                            </div>
+                        </div>
+                        <div class="cartao-slogan">🐾 Cuidando com amor e ciência</div>
+                    </div>
+                </div>
+                <div class="cartao-acoes">
+                    <button class="btn btn-primary" onclick="baixarCartao()">📥 Baixar Cartão</button>
+                    <button class="btn btn-outline" onclick="imprimirCartao()">🖨️ Imprimir</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section contato" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Fale comigo</span>
+                <h2 class="section-title">Entre em <span class="gradient-text">Contato</span></h2>
+                <p class="section-desc">Agende uma consulta ou tire suas dúvidas. Responderei o mais breve possível!</p>
+            </div>
+            <div class="contato-grid">
+                <div class="contato-info">
+                    <div class="contato-item">
+                        <div class="contato-icon">📞</div>
+                        <div>
+                            <h4>Telefone / WhatsApp</h4>
+                            <p>(00) 00000-0000</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon">✉️</div>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>davi.vet@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon">📍</div>
+                        <div>
+                            <h4>Localização</h4>
+                            <p>Atendimento em domicílio e clínica</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon">🕒</div>
+                        <div>
+                            <h4>Horário</h4>
+                            <p>Seg a Sáb - 08h às 19h</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contato-form" id="contatoForm">
+                    <div class="form-group">
+                        <input type="text" id="nome" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Seu e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="telefone" placeholder="Seu telefone">
+                    </div>
+                    <div class="form-group">
+                        <select id="assunto">
+                            <option value="">Assunto</option>
+                            <option>Consulta</option>
+                            <option>Vacinação</option>
+                            <option>Cirurgia</option>
+                            <option>Emergência</option>
+                            <option>Outros</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensagem" rows="5" placeholder="Descreva o que precisa..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <svg viewBox="0 0 100 100" class="logo-svg">
+                        <defs>
+                            <linearGradient id="gradFoot" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#0a6ebd" />
+                                <stop offset="100%" style="stop-color:#1abc9c" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="50" cy="50" r="46" fill="url(#gradFoot)"/>
+                        <ellipse cx="38" cy="38" rx="7" ry="9" fill="#fff"/>
+                        <ellipse cx="62" cy="38" rx="7" ry="9" fill="#fff"/>
+                        <ellipse cx="26" cy="52" rx="6" ry="8" fill="#fff"/>
+                        <ellipse cx="74" cy="52" rx="6" ry="8" fill="#fff"/>
+                        <path d="M50 55 C 38 55, 30 65, 35 75 C 40 83, 60 83, 65 75 C 70 65, 62 55, 50 55 Z" fill="#fff"/>
+                    </svg>
+                    <p>Dr. Davi Luiz Sousa Pereira<br><span>Médico Veterinário</span></p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Início</a>
+                    <a href="#historia">História</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#contato">Contato</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="Facebook">👍</a>
+                    <a href="#" aria-label="WhatsApp">💬</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Dr. Davi Luiz Sousa Pereira. Todos os direitos reservados. 🐾</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
